@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+input{
+    box-shadow: inset 1px 3px 3px #f7f9fd;
+    padding: 6px 6px 6px 20px;
+    border: 1px solid #9abcf2;
+}
+input[type=email] {
+    width: 186px;
+    background: url(../images/key.gif) no-repeat 5px center;
+}
+input[type=password] {
+    width: 186px;
+    background: url(../images/pass.gif) no-repeat 5px center;
+}
+body{
+     background-image: url(../images/bg-main.gif);
+}
+header{
+    height: 68px;
+    overflow: hidden;
+    background: #1464b3;
+    background-image: url(../images/bg-header.png);
+    border-bottom: 2px solid #ccc;
+    box-sizing: border-box;
+    color: white;
+}
+#logo-img{
+    width: 100px;
+    height: 68px;
+    display: block;
+    float: left;
+}
+#logo-img i{
+    font-size: 50px;
+    margin: 10px;
+
+}
+#logo-title{
+    width: auto;
+    height: 100%;
+    display: block;
+    float: left;
+    text-transform: uppercase;
+}
+#logo-title h1{
+    font-size: 20px;
+    margin-top: 10px;
+}
+#logo-title p{
+    font-size: 12px;
+    margin-top: 10px;
+}
+#logo-title p a{
+    color: #fded02;
+    text-decoration: none;
+}
+#main{
+    width: 100%;
+}
+#login-form{
+    width: 460px;
+    margin: 100px auto;
+}
+.login-header{
+    height: 31px;
+    width: 460px;
+    background: url(../images/bg-login-form.png) no-repeat center top;
+}
+.login-content{
+    width: 460px;
+    text-align: center;
+    min-height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: url(../images/bg-login-content.png) repeat-y center top;
+}
+.login-content .row{
+    display: block;
+    margin: 10px 0;
+}
+.login-content .row span{
+    display: inline-block;
+    text-align: left;
+    width: 140px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.login-footer{
+    height: 40px;
+    width: 460px;
+    background: url(../images/bg-login-bottom.png) no-repeat center top;
+}
+.login-content button{
+    padding: 6px 18px;
+    background: #0156a9;
+    margin-left: 60px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-shadow: 0 -1px 0 #00478c;
+}
+.alert{
+    border-radius: 0;
+}
+.error{
+    text-align: left;
+    font-size: 12px;
+    margin-top: 10px;
+    font-style: italic;
+    color: red;
+    margin-left: 65px;
+}
+.login-content button:hover{
+    background-color: #800c15;
+}
